@@ -1,0 +1,8 @@
+[package]
+name = "actix-parking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.0.2", features = ["r2d2", "postgres"] }
+tokio = { version = "1.23.0", features = ["rt", "macros", "rt-multi-thread"] }
